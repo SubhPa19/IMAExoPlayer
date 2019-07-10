@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".CustomIMAPlayerActivity">
 
-    <com.example.exoplayerdemo.IMAExoPlayer
+    <com.example.imaexoplayer.IMAExoPlayer
         android:id="@+id/IMAExoPlayer"
         android:layout_width="match_parent"
         android:layout_height="230dp"
@@ -16,7 +16,8 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-    </com.example.exoplayerdemo.IMAExoPlayer>
+    </com.example.imaexoplayer.IMAExoPlayer>
+
 
     <TextView
         android:id="@+id/exo_cc"

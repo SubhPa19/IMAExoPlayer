@@ -1,4 +1,4 @@
-package com.example.exoplayerdemo;
+package com.example.imaexoplayer;
 
 import android.content.Context;
 import android.net.Uri;
@@ -9,7 +9,6 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.imaexoplayer.R;
 import com.google.ads.interactivemedia.v3.api.AdErrorEvent;
 import com.google.ads.interactivemedia.v3.api.AdEvent;
 import com.google.ads.interactivemedia.v3.api.AdsLoader;
