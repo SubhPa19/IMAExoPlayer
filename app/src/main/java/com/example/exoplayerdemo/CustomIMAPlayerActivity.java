@@ -3,7 +3,6 @@ package com.example.exoplayerdemo;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.imaexoplayer.IMAExoPlayer;
 
@@ -23,14 +22,8 @@ public class CustomIMAPlayerActivity extends AppCompatActivity {
         setContentView(R.layout.activity_custom_imaplayer);
 
         imaExoPlayer  = findViewById(R.id.IMAExoPlayer);
-        imaExoPlayer.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Toast.makeText(CustomIMAPlayerActivity.this, "Hello", Toast.LENGTH_SHORT).show();
-//                imaExoPlayer.initPlayer(getApplicationContext(), contentURL2, adURL);
-            }
-        });
         imaExoPlayer.initPlayer(getApplicationContext(), contentURL2, adURL);
+
         final TextView textViewCC = findViewById(R.id.exo_cc);
         textViewCC.setOnClickListener(new View.OnClickListener() {
             @Override

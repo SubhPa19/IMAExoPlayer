@@ -30,6 +30,7 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 //    implementation 'com.google.android.exoplayer:exoplayer:2.10.0'
 //    implementation 'com.google.android.exoplayer:extension-ima:2.10.0'
-    implementation project(path: ':imaexoplayer')
+//    implementation project(path: ':imaexoplayer')
+    implementation 'com.github.SubhashPandey19:IMAExoPlayer:0.1.1'
 
 }
