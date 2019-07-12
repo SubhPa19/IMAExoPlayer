@@ -6,7 +6,7 @@ Just Include view in xml and pass 'adURL' and 'contentURL' to play ads over the 
 # 1. Adding Gradle dependency 
    project/build.gradle > `maven { url 'https://jitpack.io' }`
    
-   app/build.gradle > `implementation 'com.github.SubhashPandey19:IMAExoPlayer:0.1.1'`
+   app/build.gradle > `implementation 'com.github.SubhPa19:IMAExoPlayer:0.1.1'`
    
    
 # 2. Add view to 
